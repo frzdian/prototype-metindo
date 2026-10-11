@@ -1,0 +1,6 @@
+# Photos and videos rarely change: browsers may cache them for a week.
+# CSS/JS use ?v= version tags in the HTML instead.
+/assets/img/*
+  Cache-Control: public, max-age=604800
+/assets/video/*
+  Cache-Control: public, max-age=604800

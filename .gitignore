@@ -1,0 +1,28 @@
+# OS / OneDrive
+desktop.ini
+Thumbs.db
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+
+# Netlify CLI link (created by `netlify link`)
+.netlify/
+
+# Node (if a build step is added later)
+node_modules/
+
+# Local Claude Code settings (launch.json is shared on purpose)
+.claude/settings.local.json
+
+# Raw company video (57 MB). Over GitHub's 50 MB warning size, and the
+# web-ready 720p copy is already in website/assets/video/company-profile.mp4.
+# Keep the original in OneDrive / a shared drive instead.
+source-assets/introduction.mp4
+
+# Hairline look sheets and built preview pages (regenerate with look.mjs)
+figures/hairline-*
+
+# Packaged copy of the site for sending / manual upload
+metindo-website-*.zip

@@ -1,0 +1,7 @@
+# Netlify settings, picked up automatically when the Git repo is connected.
+# Plain static site: no build step, publish the website/ folder as-is.
+# Caching and redirect rules live in website/_headers and website/_redirects
+# so they also apply when the folder is uploaded by drag-and-drop.
+[build]
+  publish = "website"
+  command = ""
